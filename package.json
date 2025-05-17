@@ -1,0 +1,19 @@
+{
+  "name": "resturent-app",
+  "version": "1.0.0",
+  "description": "App for Resturent in nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ThisaruSanduthilina/Restaurant-Management-System-.git"
+  },
+  "author": "Thisaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThisaruSanduthilina/Restaurant-Management-System-/issues"
+  },
+  "homepage": "https://github.com/ThisaruSanduthilina/Restaurant-Management-System-#readme"
+}
