@@ -4,12 +4,17 @@ const cors = require("cors");
 const morgan =require ('morgan');
 const dotenv =require('dotenv')
 
+//
+
 
 const app =express();
 
 app.use(cors());
 app.use(express.json())
 app.use(morgan('dev'));
+
+//route
+app.use("/api/v1/test",require("./routs/testRouts"));
 
 app.get("/",(req,res)=>{
     return res.status(200).send("<h1>Welcome To The Food Server App</h1>");
